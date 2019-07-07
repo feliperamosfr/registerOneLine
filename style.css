@@ -1,0 +1,11 @@
+h1 {
+	font-family: fantasy;
+
+}
+.container {
+  width: 1800px;
+  display: inline-block;
+  overflow: auto;
+  white-space: nowrap;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1>Register page</h1>
+	<br> 
+	
+	<div class="container">
+		<form method="GET">
+			Name : <input type="text" name="firstName" required=""> 
+			- Birth Date : <input type="date" name="birthDate"> 
+			- Email : <input type="email" name="email"> 
+			- Gender : 
+			<Select>
+				<option value="male"> Male </option> 
+				<option value="female"> Female </option>
+				<option value="other"> Other </option>
+			</Select>
+			- Password : <input type="password" name="password" min="6">
+			<input type="submit" name="submitButton" value="Register">
+			<input type="reset" name="resetButton" value="Reset Values">
+		</form>
+	</div>
+
+</body>
+</html>
